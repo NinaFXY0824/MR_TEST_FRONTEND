@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Developer_Test_FrontEnd</title>
+    <link rel="stylesheet" href="./MR.css">
+    <script type="text/javascript" src="./MR.js" ></script>
+    <link rel="icon" type="image/png" href="https://static.invisionapp-cdn.com/spa/cfprojects/common/img/favicon-16x16.2648d8282b.png" sizes="16x16">
+</head>
+<body>
+<h1>
+    <div class="cart" id="cart1">
+        <p id="myCart" onclick="showProducts()" >My Cart</p>
+    </div>
+</h1>
+<div class="wholePic">
+    <div class="Tshirt">
+        <img src="./img/classic-tee.jpg" style="width: 60%; float: right;">
+    </div>
+    <div class="Description">
+        <p style="color: #222222; font-size: 24px;">Class Tree</p>
+        <HR width="100%" SIZE=0.5 color=#CCCCCC>
+        <p style="color: #222222; font-size: 20px;  font-weight: bold;">$75.00</p>
+        <HR width="100%" SIZE=0.5 color=#CCCCCC>
+        <p style="color: #222222; font-size: 15px;">Description...</p>
+        <div class="Tsize">
+            <p><span style="color: #222222; font-size: 15px;">Size</span>
+                <span style="color: red; font-size: 15px;">*</span></p>
+            <input type="button" name="small" value="S" onclick="S_add()" class="sizebutton" id="sbutton">
+            <input type="button" name="medium" value="M" onclick="M_add()" class="sizebutton" id="mbutton">
+            <input type="button" name="large" value="L" onclick="L_add()" class="sizebutton"id="lbutton">
+        </div>
+        <div class="AddProducts">
+            <button onclick="add_to_cart()" id="addcart">Add To Cart</button>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

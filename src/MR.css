@@ -1,0 +1,103 @@
+#addcart{
+    margin: 20px 0 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    border: #222222 2px solid;
+    color: #222222;
+    background-color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+}
+#addcart:hover {
+    background-color: #F6F6F7;
+    color: #888888;
+}
+.sizebutton{
+    font-size: 15px;
+    font-weight: bold;
+    border: #888888 2px solid;
+    color: #888888;
+    background-color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 0px 20px 0 0px;
+}
+#myCart{
+    vertical-align: middle;
+    text-decoration: none;
+    border-width: 0;
+    background-color:#F6F6F7;
+    text-align: center;
+    height: 20px;
+    width: 100px;
+    margin-right: 150px;
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+
+    h1 {
+        background-color: #F6F6F7;
+        height: 50px;
+    }
+    .cart{
+        font-size: 16px;
+        float: right;
+        font-weight: 500;
+        color: #888888;
+        width: 150px;
+        margin-right: 20px;
+    }
+    .Tshirt{
+        float: left;
+        width: 40%;
+        padding: 10px;
+        height: 200px;
+    }
+    .Description{
+        float: right;
+        width: 50%;
+        padding: 10px;
+        height: 200px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    h1 {
+        background-color:  #F6F6F7;
+        height: 50px;
+    }
+    .cart{
+        font-size: 16px;
+        float: right;
+        font-weight: 500;
+        color: #888888;
+        width: 150px;
+    }
+    .Tshirt{
+        width: 70%;
+        padding: 10px;
+        height: 200px;
+    }
+    .Description{
+        position: relative;
+        float: left;
+        width: 100%;
+        padding: 10px;
+        height: 200px;
+        margin-left: 50px;
+    }
+
+}
